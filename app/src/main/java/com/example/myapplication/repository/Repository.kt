@@ -13,5 +13,7 @@ interface Repository {
 
     fun modify(apparel: Apparel,position:Int)
 
-    fun getPicture(position: Int): String
+    fun getPicture(id: Int): String
+
+    fun setApparelListRepo(apparelss: List<Apparel>)
 }
